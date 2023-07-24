@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Princing.css';
+import './Pricing.css';
 
 function Princing() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Constact.css';
+import './Contact.css';
 
 function Constact() {
     return (
