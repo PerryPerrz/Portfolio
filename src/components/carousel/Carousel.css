@@ -1,0 +1,115 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: var(--container-color);
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--container-color));
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), var(--container-color));
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide .item img {
+    height: 70px;
+    margin: 0 70px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .item .img {
+        max-height: 50px;
+        max-width: 50px;
+    }
+
+    .logos-slide {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1.875rem;
+        justify-content: center;
+        align-items: center;
+        animation: none;
+    }
+
+    .logos:before {
+        left: -15%;
+        width: 15%;
+    }
+
+    .logos:after {
+        right: -15%;
+        width: 15%;
+    }
+
+    .logos {
+        display: block;
+        text-align: center;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logos-slide {
+        grid-template-columns: 310px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logos-slide {
+        grid-template-columns: 1fr;
+    }
+}

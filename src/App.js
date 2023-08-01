@@ -7,6 +7,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
+import Carousel from './components/carousel/Carousel';
 import Portfolio from './components/portfolio/Portfolio';
 import Pricing from './components/pricing/Pricing';
 import Testimonials from './components/testimonials/Testimonials';
@@ -22,6 +23,7 @@ function App() {
         <About />
         <Services />
         <Resume />
+        <Carousel/>
         <Portfolio />
         <Pricing />
         <Testimonials />
