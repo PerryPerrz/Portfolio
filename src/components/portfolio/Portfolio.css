@@ -98,6 +98,23 @@
     transform: translateY(0);
 }
 
+.technologies-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.technology {
+    height: 45px;
+    width: 45px;
+    border-radius: 0%;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
 @media screen and (max-width: 1024px) {
     .work-filters {
         justify-content: center;
