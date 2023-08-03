@@ -2,8 +2,8 @@ import React from 'react';
 
 import './Testimonials.css';
 
-import Image1 from "../../assets/avatar-1.svg"
-import Image2 from "../../assets/avatar-3.svg"
+import Image1 from "../../assets/avatar-1.png"
+import Image2 from "../../assets/avatar-2.png"
 
 // import Swiper core and required modules (Swiper version ^8.4.6)
 import { Swiper, SwiperSlide } from 'swiper/react';

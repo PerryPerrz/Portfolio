@@ -4,11 +4,12 @@
 /* === Variables === */
 :root {
   /* Colors */
-  --first-color: hsl(353, 100%, 65%);
+  --first-color: #E3B7A0;
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
   --container-color: hsl(0, 0%, 100%);
+  --hover-color: #EDCDBB;
 
   /* Font, 1rem = 16px */
   --body-font: 'Rubik', sans-serif;
@@ -26,13 +27,13 @@
 
   /* Box shadow */
   --shadow: 0 5px 20px 0px rgba(69 67 96 / 10%);
-  
+
   /* Border radius */
   --border-radius: 20px;
 }
 
 /* === Responsive typography === */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   :root {
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.25rem;
@@ -68,7 +69,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   line-height: 1.2;
@@ -97,8 +100,8 @@ img {
 /* === Layout === */
 .container {
   max-width: 1080px;
-  padding-left : 15px;
-  padding-right : 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -145,6 +148,7 @@ img {
   50% {
     transform: scale(0.8);
   }
+
   100% {
     transform: scale(1);
   }
