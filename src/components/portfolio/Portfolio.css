@@ -77,7 +77,7 @@
     left: 1.5rem;
     font-size: var(--h3-font-size);
     display: block;
-    background-color: #ffd15c;
+    background-color: var(--second-color);
     height: 40px;
     width: 40px;
     cursor: pointer;
@@ -110,8 +110,8 @@
 .technology {
     height: 45px;
     width: 45px;
-    border-radius: 0%;
-    background-color: transparent;
+    border-radius: 40%;
+    background-color: var(--third-color);
     margin-right: 5px;
 }
 

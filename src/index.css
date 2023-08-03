@@ -5,11 +5,12 @@
 :root {
   /* Colors */
   --first-color: #E3B7A0;
+  --second-color: #EDCDBB;
+  --third-color: #FFEDDB;
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
   --container-color: hsl(0, 0%, 100%);
-  --hover-color: #EDCDBB;
 
   /* Font, 1rem = 16px */
   --body-font: 'Rubik', sans-serif;
