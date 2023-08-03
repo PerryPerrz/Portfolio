@@ -124,7 +124,7 @@ img {
 
 .section-title::before {
   content: '';
-  /* TODO background: url(\assets\dots-bg.svg);*/
+  background: url(/src/assets/dots-bg.svg);
   height: 2.25rem;
   width: 2.25rem;
   position: absolute;
