@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 import './Sidebar.css';
 
@@ -6,7 +6,7 @@ import Logo from '../../assets/logo.svg';
 
 function Sidebar() {
   const [toggle, showMenu] = useState(false);
-  
+
   return (
     <>
       <aside className={toggle ? "aside show-menu" : "aside"}>
@@ -42,11 +42,13 @@ function Sidebar() {
                   <i className="icon-layers"></i>
                 </a>
               </li>
+              {/*
               <li className="nav-item">
                 <a href="#blog" className="nav-link">
                   <i className="icon-note"></i>
                 </a>
               </li>
+              */}
               <li className="nav-item">
                 <a href="#contact" className="nav-link">
                   <i className="icon-bubble"></i>
