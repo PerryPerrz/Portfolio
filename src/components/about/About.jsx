@@ -15,7 +15,7 @@ function About() {
 
         <div className="about-data grid">
           <div className="about-info">
-            <p className="about-description">I'm Perry, software engineer from Nancy, France. I've a lot of experience and I'm eager to learn !</p>
+            <p className="about-description">I'm Perry, software engineer from Nancy in France. I've a lot of experience in web development and I'm eager to learn ! 🌱</p>
             <a href="" className="btn">Download CV</a>
           </div>
 
