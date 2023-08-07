@@ -12,6 +12,10 @@
     margin-bottom: .5rem;
 }
 
+.contact-info>* {
+    margin-bottom: 1.5rem;
+}
+
 .contact-form-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

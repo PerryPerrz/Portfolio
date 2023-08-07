@@ -15,6 +15,7 @@ function Constact() {
                 <div className="contact-info">
                     <h3 className="contact-title">Let's talk !</h3>
                     <p className="contact-details">Don't like forms ? Send me an email ! 👋</p>
+                    <a href="mailto:iopetihugoinfo@gmail.com" className="btn">Contact Me</a>
                 </div>
 
                 <form action="" className="contact-form" method='POST' onSubmit={handleSubmit}>
