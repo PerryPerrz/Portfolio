@@ -27,10 +27,8 @@ function Portfolio() {
 
             <div className="work-filters">
                 <span className="work-item" onClick={() => setItems(Menu)}>Everything</span>
-                <span className="work-item" onClick={() => filterItem("Creative")}>Creative</span>
-                <span className="work-item" onClick={() => filterItem("Art")}>Art</span>
-                <span className="work-item" onClick={() => filterItem("Design")}>Design</span>
-                <span className="work-item" onClick={() => filterItem("Branding")}>Branding</span>
+                <span className="work-item" onClick={() => filterItem("Personal")}>Personal</span>
+                <span className="work-item" onClick={() => filterItem("School")}>School</span>
             </div>
 
             <div className="work-container grid">
