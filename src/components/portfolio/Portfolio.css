@@ -88,6 +88,11 @@
     opacity: 0;
 }
 
+.work-button:hover {
+    opacity: .7;
+    transform: scale(1.2);
+}
+
 .work-card:hover .work-button {
     opacity: 1;
 }

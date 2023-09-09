@@ -48,8 +48,8 @@ const Menu = [
         category: "Personal",
         link: "https://github.com/PerryPerrz/SushiVerse",
         technology1: React,
-        technology2: HTMLCSS,
-        technology3: "",
+        technology2: JavaScript,
+        technology3: HTMLCSS,
     },
     {
         id: 4,
