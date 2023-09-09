@@ -2,7 +2,7 @@ import React from 'react';
 
 import './About.css';
 
-import Image from "../../assets/avatar-2.png";
+import Image from "../../assets/avatar-1.png";
 import AboutBox from './AboutBox';
 
 function About() {
