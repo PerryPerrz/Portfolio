@@ -4,6 +4,8 @@ import './Portfolio.css';
 
 import Menu from './Menu';
 
+import { useTranslation } from 'react-i18next';
+
 function Portfolio() {
     const [items, setItems] = useState(Menu);
     const filterItem = (categoryItem) => {
@@ -21,14 +23,16 @@ function Portfolio() {
         return null;
     };
 
+    const [t, i18n] = useTranslation("global");
+
     return (
         <section className="work container section" id="portfolio">
-            <h2 className="section-title">Recent Works</h2>
+            <h2 className="section-title">{t("portfolio.title")}</h2>
 
             <div className="work-filters">
-                <span className="work-item" onClick={() => setItems(Menu)}>Everything</span>
-                <span className="work-item" onClick={() => filterItem("Personal")}>Personal</span>
-                <span className="work-item" onClick={() => filterItem("School")}>School</span>
+                <span className="work-item" onClick={() => setItems(Menu)}>{t("portfolio.everything")}</span>
+                <span className="work-item" onClick={() => filterItem("Personal")}>{t("portfolio.Personal")}</span>
+                <span className="work-item" onClick={() => filterItem("School")}>{t("portfolio.School")}</span>
             </div>
 
             <div className="work-container grid">
@@ -46,8 +50,7 @@ function Portfolio() {
                                     </div>
                                 </div>
                             </div>
-
-                            <span className="work-category">{category}</span>
+                            <span className="work-category">{t(`portfolio.${category}`)}</span>
 
                             <h3 className="work-title">{title}</h3>
                             <a href={link} className="work-button">

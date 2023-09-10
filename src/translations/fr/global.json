@@ -53,5 +53,14 @@
         "Engineering Draftsman Internship": "Stage en tant que dessinateur industriel",
         "During 12 weeks, I worked on an implementation of an application store project for the MP44 terminal and IT development at MP44 by Solis Security.": "Pendant 12 semaines, j'ai travaillé sur la mise en place d'un projet de magasin d'applications pour le terminal MP44 et le développement informatique chez MP44 par Solis Security.",
         "During 1 week, I worked on many things sush as project study, production of specifications, quotes and industrial drawings (2D/3D).": "Pendant 1 semaine, j'ai travaillé sur de nombreuses choses comme l'étude de projet, la réalisation de cahiers des charges, devis et dessins industriels (2D/3D)."
+    },
+    "carousel": {
+        "technologies": "Les Technologies"
+    },
+    "portfolio": {
+        "title": "Travaux récents",
+        "everything": "Tout",
+        "Personal": "Personnel",
+        "School": "Scolaire"
     }
 }

@@ -53,5 +53,14 @@
         "Engineering Draftsman Internship": "Engineering Draftsman Internship",
         "During 12 weeks, I worked on an implementation of an application store project for the MP44 terminal and IT development at MP44 by Solis Security.": "During 12 weeks, I worked on an implementation of an application store project for the MP44 terminal and IT development at MP44 by Solis Security.",
         "During 1 week, I worked on many things sush as project study, production of specifications, quotes and industrial drawings (2D/3D).": "During 1 week, I worked on many things sush as project study, production of specifications, quotes and industrial drawings (2D/3D)."
+    },
+    "carousel": {
+        "technologies": "Technologies"
+    },
+    "portfolio": {
+        "title": "Recent Works",
+        "everything": "Everything",
+        "Personal": "Personal",
+        "School": "School"
     }
 }

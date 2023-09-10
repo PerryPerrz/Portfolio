@@ -21,7 +21,11 @@ import ReactJS from '../../assets/logo/react.svg'
 import TypeScript from '../../assets/logo/typescript.svg'
 import VSCode from '../../assets/logo/vs-code.svg'
 
+import { useTranslation } from 'react-i18next';
+
 const Carousel = () => {
+    const [t, i18n] = useTranslation("global");
+
     const items = (
         <>
             <div className="logos-slide">
@@ -121,7 +125,7 @@ const Carousel = () => {
 
     return (
         <section className="carousel container section" id="carousel">
-            <h2 className="section-title">Technologies</h2>
+            <h2 className="section-title">{t("carousel.technologies")}</h2>
 
             <div className="carousel-container">
                 <div className="logos">
