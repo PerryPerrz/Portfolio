@@ -10,9 +10,19 @@ import Shapes from './Shapes';
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
+import { useTranslation } from 'react-i18next';
+
 function Home() {
+  const [t, i18n] = useTranslation("global")
+
+  const words = [
+    t('home.words.0'),
+    t('home.words.1'),
+    t('home.words.2'),
+  ];
+
   const [text] = useTypewriter({
-    words: ['Software Engineer !', 'Web Developer !', 'UI/UX Designer !'],
+    words: words,
     loop: {},
     speed: 100,
     delay: 1000,
@@ -23,12 +33,13 @@ function Home() {
       <div className="intro">
         <img src={Me} alt="" className="home-img" />
         <h1 className="home-name">Hugo ^ <span className="important">Perry</span></h1>
-        <span className="home-education">I'm a <span className="important">{text}</span></span>
+
+        <span className="home-education">{t('home.title')}<span className="important">{text}</span></span>
         <Cursor />
 
         <HeaderSocials />
 
-        <a href="#contact" className="btn">Hire Me</a>
+        <a href="#contact" className="btn">{t("home.button")}</a>
 
         <ScrollDown />
       </div>

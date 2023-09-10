@@ -4,8 +4,16 @@ import './Sidebar.css';
 
 import Logo from '../../assets/logo.svg';
 
+import { useTranslation } from 'react-i18next';
+
 function Sidebar() {
   const [toggle, showMenu] = useState(false);
+
+  const [t, i18n] = useTranslation("global");
+
+  const handleChangeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  }
 
   return (
     <>
@@ -13,6 +21,21 @@ function Sidebar() {
         <a href="#home" className="nav-logo">
           <img src={Logo} alt="" />
         </a>
+
+        <div className="language-switcher">
+          <button
+            className={`button ${i18n.language === 'en' ? 'active' : ''}`}
+            onClick={() => handleChangeLanguage("en")}
+          >
+            EN
+          </button>
+          <button
+            className={`button ${i18n.language === 'fr' ? 'active' : ''}`}
+            onClick={() => handleChangeLanguage("fr")}
+          >
+            FR
+          </button>
+        </div>
 
         <nav className="nav">
           <div className='nav-menu'>

@@ -1,0 +1,28 @@
+{
+    "home": {
+        "title": "I'm a ",
+        "words": [
+            "Software Engineer !",
+            "Web Developer !",
+            "UI/UX Designer !"
+        ],
+        "button": "Hire Me"
+    },
+    "scrollDown": {
+        "title": "Scroll Down"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "I'm Perry, software engineer from Nancy in France. I've a lot of experience in web development and I'm eager to learn ! 🌱",
+        "button": "Download Resume",
+        "skill-1": "Development",
+        "skill-2": "UI/UX Design",
+        "skill-3": "Photography"
+    },
+    "aboutBox": {
+        "subtitle-1": "Projects completed",
+        "subtitle-2": "Cups of coffee",
+        "subtitle-3": "Satisfied customer(s)",
+        "subtitle-4": "University years"
+    }
+}

@@ -54,9 +54,9 @@
     transition: .3s;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .aside {
-      left: -110px;
+        left: -110px;
     }
 
     .nav-toggle {
@@ -70,4 +70,41 @@
     .show-menu {
         left: 0;
     }
-  }
+}
+
+.language-switcher {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-switcher button {
+    display: inline-block;
+    background-color: var(--body-color);
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 2px;
+
+    transition: all 0.2s ease-in-out 0ms;
+}
+
+.language-switcher button:hover {
+    background-color: var(--second-color);
+    color: var(--body-color);
+}
+
+.language-switcher button:active {
+    transform: scale(0.95);
+}
+
+.language-switcher button:last-child {
+    margin-right: 0;
+}
+
+.language-switcher button.active {
+    background-color: var(--text-color);
+    color: var(--body-color);
+}

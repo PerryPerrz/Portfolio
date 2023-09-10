@@ -1,0 +1,28 @@
+{
+    "home": {
+        "title": "Je suis un ",
+        "words": [
+            "Ingénieur logiciel !",
+            "Développeur web !",
+            "Concepteur UI/UX !"
+        ],
+        "button": "Contactez Moi"
+    },
+    "scrollDown": {
+        "title": "Défiler vers le bas"
+    },
+    "about": {
+        "title": "À propos de moi",
+        "description": "Je m'appelle Perry, ingénieur logiciel originaire de Nancy en France. J'ai beaucoup d'expérience en développement web et j'ai soif d'apprendre ! 🌱",
+        "button": "Télécharger le CV",
+        "skill-1": "Développement",
+        "skill-2": "Conception UI/UX",
+        "skill-3": "Photographie"
+    },
+    "aboutBox": {
+        "subtitle-1": "Projets terminés",
+        "subtitle-2": "Tasses de café",
+        "subtitle-3": "Client(s) satisfait(s)",
+        "subtitle-4": "Années universitaires"
+    }
+}
