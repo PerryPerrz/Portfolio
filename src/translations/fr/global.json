@@ -24,5 +24,14 @@
         "subtitle-2": "Tasses de café",
         "subtitle-3": "Client(s) satisfait(s)",
         "subtitle-4": "Années universitaires"
+    },
+    "services": {
+        "title": "Compétences",
+        "service-1": "Développement",
+        "service-2": "Conception UI/UX",
+        "service-3": "Photographie",
+        "description-1": "Je développe des sites web et des applications web en utilisant les dernières technologies disponibles.",
+        "description-2": "Je conçois des interfaces utilisateur et des expériences utilisateur pour des sites web et des applications web.",
+        "description-3": "Je prends des photos de paysages, de personnes, d'événements, etc."
     }
 }

@@ -24,5 +24,14 @@
         "subtitle-2": "Cups of coffee",
         "subtitle-3": "Satisfied customer(s)",
         "subtitle-4": "University years"
+    },
+    "services": {
+        "title": "Skills",
+        "service-1": "Development",
+        "service-2": "UI/UX Design",
+        "service-3": "Photography",
+        "description-1": "I develop websites and web applications using the latest technologies available.",
+        "description-2": "I design user interfaces and user experiences for websites and web applications.",
+        "description-3": "I take pictures of landscapes, people, events, etc."
     }
 }
