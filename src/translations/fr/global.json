@@ -58,9 +58,22 @@
         "technologies": "Les Technologies"
     },
     "portfolio": {
-        "title": "Travaux récents",
+        "title": "Travaux Récents",
         "everything": "Tout",
         "Personal": "Personnel",
         "School": "Scolaire"
+    },
+    "contact": {
+        "title": "Entrer En Contact",
+        "title-2": "Parlons !",
+        "details": "Vous n'aimez pas les formulaires ? Envoyez-moi un email ! 👋",
+        "mail-btn": "Contactez moi",
+        "name": "Insérez votre nom",
+        "mail": "Insérez votre email",
+        "subject": "Insérez votre sujet",
+        "message": "Écrivez votre message",
+        "submit": "Soumettre",
+        "submitted": "Soumis !",
+        "submit in progress": "Soumission en cours..."
     }
 }

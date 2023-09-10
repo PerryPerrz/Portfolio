@@ -4,18 +4,22 @@ import './Contact.css';
 
 import { useForm, ValidationError } from '@formspree/react';
 
+import { useTranslation } from 'react-i18next';
+
 function Constact() {
     const [state, handleSubmit] = useForm("meqbelyo");
 
+    const [t, i18n] = useTranslation("global");
+
     return (
         <section className="contact container section" id="contact">
-            <h2 className="section-title">Get In Touch</h2>
+            <h2 className="section-title">{t("contact.title")}</h2>
 
             <div className="contact-container grid">
                 <div className="contact-info">
-                    <h3 className="contact-title">Let's talk !</h3>
-                    <p className="contact-details">Don't like forms ? Send me an email ! 👋</p>
-                    <a href="mailto:iopetihugoinfo@gmail.com" className="btn">Contact Me</a>
+                    <h3 className="contact-title">{t("contact.title-2")}</h3>
+                    <p className="contact-details">{t("contact.details")}</p>
+                    <a href="mailto:iopetihugoinfo@gmail.com" className="btn">{t("contact.mail-btn")}</a>
                 </div>
 
                 <form action="" className="contact-form" method='POST' onSubmit={handleSubmit}>
@@ -24,7 +28,7 @@ function Constact() {
                             <input
                                 id="name"
                                 className="contact-form-input"
-                                placeholder="Insert your name"
+                                placeholder={t("contact.name")}
                                 name="name"
                                 type="text"
                                 pattern='[A-Za-z\s]+'
@@ -41,7 +45,7 @@ function Constact() {
                             <input
                                 id="email"
                                 className="contact-form-input"
-                                placeholder="Insert your email"
+                                placeholder={t("contact.mail")}
                                 name="email"
                                 type="email"
                                 pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$'
@@ -59,7 +63,7 @@ function Constact() {
                         <input
                             id="subject"
                             className="contact-form-input"
-                            placeholder="Insert your subject"
+                            placeholder={t("contact.subject")}
                             name="subject"
                             type="text"
                             pattern='[A-Za-z\s]+'
@@ -76,7 +80,7 @@ function Constact() {
                         <textarea
                             id="message"
                             className="contact-form-input"
-                            placeholder="Write your message"
+                            placeholder={t("contact.message")}
                             cols="30"
                             rows="10"
                             name="message"
@@ -91,7 +95,7 @@ function Constact() {
                         />
                     </div>
 
-                    <button className="btn" type="submit" disabled={state.submitting || state.succeeded}><span>{!state.succeeded && !state.submitting ? "Submit" : state.succeeded ? "Submitted !" : "Submit in progress..."}</span></button>
+                    <button className="btn" type="submit" disabled={state.submitting || state.succeeded}><span>{!state.succeeded && !state.submitting ? t("contact.submit") : state.succeeded ? t("contact.submitted") : t("contact.submit in progress")}</span></button>
 
                 </form>
             </div>

@@ -62,5 +62,18 @@
         "everything": "Everything",
         "Personal": "Personal",
         "School": "School"
+    },
+    "contact": {
+        "title": "Get In Touch",
+        "title-2": "Let's talk !",
+        "details": "Don't like forms ? Send me an email ! 👋",
+        "mail-btn": "Contact Me",
+        "name": "Insert your name",
+        "mail": "Insert your email",
+        "subject": "Insert your subject",
+        "message": "Write your message",
+        "submit": "Submit",
+        "submitted": "Submitted !",
+        "submit in progress": "Submit in progress..."
     }
 }
