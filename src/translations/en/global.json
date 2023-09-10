@@ -33,5 +33,25 @@
         "description-1": "I develop websites and web applications using the latest technologies available.",
         "description-2": "I design user interfaces and user experiences for websites and web applications.",
         "description-3": "I take pictures of landscapes, people, events, etc."
+    },
+    "resume": {
+        "title": "Experience"
+    },
+    "education": {
+        "title": "Degree in ",
+        "desc": "with a first year in ",
+        "year": "Academic Year ",
+        "Master's Degree in Computer Science": "Master's Degree in Computer Science",
+        "Bachelor's Degree in Computer Science": "Bachelor's Degree in Computer Science",
+        "General Certificate of Secondary Education": "General Certificate of Secondary Education",
+        "with a first year in computer science and a second year specializing in computer engineering and human-computer interaction.": "with a first year in computer science and a second year specializing in computer engineering and human-computer interaction.",
+        "with a first year in Mathematics and Computer Science.": "with a first year in Mathematics and Computer Science.",
+        "with a specialization in Engineering Sciences, Computer Science and Digital Science option.": "with a specialization in Engineering Sciences, Computer Science and Digital Science option."
+    },
+    "experience": {
+        "Software Engineer Internship": "Software Engineer Internship",
+        "Engineering Draftsman Internship": "Engineering Draftsman Internship",
+        "During 12 weeks, I worked on an implementation of an application store project for the MP44 terminal and IT development at MP44 by Solis Security.": "During 12 weeks, I worked on an implementation of an application store project for the MP44 terminal and IT development at MP44 by Solis Security.",
+        "During 1 week, I worked on many things sush as project study, production of specifications, quotes and industrial drawings (2D/3D).": "During 1 week, I worked on many things sush as project study, production of specifications, quotes and industrial drawings (2D/3D)."
     }
 }

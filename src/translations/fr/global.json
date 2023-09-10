@@ -33,5 +33,25 @@
         "description-1": "Je développe des sites web et des applications web en utilisant les dernières technologies disponibles.",
         "description-2": "Je conçois des interfaces utilisateur et des expériences utilisateur pour des sites web et des applications web.",
         "description-3": "Je prends des photos de paysages, de personnes, d'événements, etc."
+    },
+    "resume": {
+        "title": "Expérience"
+    },
+    "education": {
+        "title": "Diplôme en ",
+        "desc": "avec une première année en ",
+        "year": "Année universitaire ",
+        "Master's Degree in Computer Science": "Master en informatique",
+        "Bachelor's Degree in Computer Science": "Licence en informatique",
+        "General Certificate of Secondary Education": "Baccalauréat général",
+        "with a first year in computer science and a second year specializing in computer engineering and human-computer interaction.": "avec une première année en informatique et une deuxième année de spécialisation en ingénierie informatique et interaction homme-machine.",
+        "with a first year in Mathematics and Computer Science.": "avec une première année en mathématiques et informatique.",
+        "with a specialization in Engineering Sciences, Computer Science and Digital Science option.": "avec une spécialisation en sciences de l'ingénieur, informatique et option sciences du numérique."
+    },
+    "experience": {
+        "Software Engineer Internship": "Stage en tant qu'ingénieur logiciel",
+        "Engineering Draftsman Internship": "Stage en tant que dessinateur industriel",
+        "During 12 weeks, I worked on an implementation of an application store project for the MP44 terminal and IT development at MP44 by Solis Security.": "Pendant 12 semaines, j'ai travaillé sur la mise en place d'un projet de magasin d'applications pour le terminal MP44 et le développement informatique chez MP44 par Solis Security.",
+        "During 1 week, I worked on many things sush as project study, production of specifications, quotes and industrial drawings (2D/3D).": "Pendant 1 semaine, j'ai travaillé sur de nombreuses choses comme l'étude de projet, la réalisation de cahiers des charges, devis et dessins industriels (2D/3D)."
     }
 }
