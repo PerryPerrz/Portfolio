@@ -1,13 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3cdc66a3.css",
-    "main.js": "/Portfolio/static/js/main.73d57f19.js",
+    "main.css": "/Portfolio/static/css/main.551b69aa.css",
+    "main.js": "/Portfolio/static/js/main.50de5680.js",
     "static/media/avatar-2.png": "/Portfolio/static/media/avatar-2.fb9d7b245d2947640160.png",
-    "static/media/blog-2.svg": "/Portfolio/static/media/blog-2.dc7cceb2191feb97d5cdc615755f5b60.svg",
     "static/media/avatar-1.png": "/Portfolio/static/media/avatar-1.7b59a0ccd70cbb890883.png",
-    "static/media/blog-1.svg": "/Portfolio/static/media/blog-1.f765e1b0fff9fb909ed6db7a682ac4e2.svg",
     "static/media/work-4.svg": "/Portfolio/static/media/work-4.58bc4add25b4ccc6b7a8a58c92d45898.svg",
-    "static/media/blog-3.svg": "/Portfolio/static/media/blog-3.6746a86faea2f6e46ed596388bc91e1c.svg",
     "static/media/composer.svg": "/Portfolio/static/media/composer.fb63e8aab82d35078f5ec4f2713b2608.svg",
     "static/media/work-3.svg": "/Portfolio/static/media/work-3.78ab5df87d7f465189c2e19badff2843.svg",
     "static/media/work-1.svg": "/Portfolio/static/media/work-1.fa91dbeffdfd7406b07a3d16911fc02c.svg",
@@ -29,23 +26,20 @@
     "static/media/git.svg": "/Portfolio/static/media/git.c3a3bd41ff5197b6d1c7c08499cb7bf3.svg",
     "static/media/mysql.svg": "/Portfolio/static/media/mysql.42c4e160b0e2fc323d330f791a2eec36.svg",
     "static/media/service-3.svg": "/Portfolio/static/media/service-3.0b2114df042b08711802b283fe62e370.svg",
-    "static/media/price-1.svg": "/Portfolio/static/media/price-1.602bf231a8ab3491146db31159c9ae64.svg",
     "static/media/jetbrains.svg": "/Portfolio/static/media/jetbrains.537f24ae4b89214dbd0b86da8561deec.svg",
     "static/media/js.svg": "/Portfolio/static/media/js.454c2e0cf419223f4647567bebdd3cdf.svg",
     "static/media/typescript.svg": "/Portfolio/static/media/typescript.b012f9515cfc6e155da5a49fdada34eb.svg",
     "static/media/libgdx.svg": "/Portfolio/static/media/libgdx.b61cef1a9396d5d7f36bbc8a80a0e299.svg",
     "static/media/service-1.svg": "/Portfolio/static/media/service-1.0189a317ca98ff4d0fa0ca26ff3c9244.svg",
-    "static/media/price-3.svg": "/Portfolio/static/media/price-3.a24705c9b35a9f65be02f9ccfa391f47.svg",
-    "static/media/price-2.svg": "/Portfolio/static/media/price-2.c36c3ded18001a6108aaf174ccaf668e.svg",
     "static/media/amazonaws.svg": "/Portfolio/static/media/amazonaws.3fdd12a292d9ae19219acaa278b59711.svg",
     "static/media/dots-bg.svg": "/Portfolio/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/angular.svg": "/Portfolio/static/media/angular.9d50d6e45056b341aafdf37a27e56ccc.svg",
-    "main.3cdc66a3.css.map": "/Portfolio/static/css/main.3cdc66a3.css.map",
-    "main.73d57f19.js.map": "/Portfolio/static/js/main.73d57f19.js.map"
+    "main.551b69aa.css.map": "/Portfolio/static/css/main.551b69aa.css.map",
+    "main.50de5680.js.map": "/Portfolio/static/js/main.50de5680.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cdc66a3.css",
-    "static/js/main.73d57f19.js"
+    "static/css/main.551b69aa.css",
+    "static/js/main.50de5680.js"
   ]
 }
