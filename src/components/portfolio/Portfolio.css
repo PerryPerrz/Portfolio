@@ -126,7 +126,6 @@
 }
 
 .technology:hover {
-    opacity: .7;
     transform: translateY(-25%);
 }
 

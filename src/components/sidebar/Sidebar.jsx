@@ -71,7 +71,7 @@ function Sidebar() {
 
         <div className="nav-footer">
           <span className="copyright">
-            &copy; 2023 | <strong>Perry.</strong>
+            &copy; 2024 | <strong>Hugo.</strong>
           </span>
         </div>
       </aside>

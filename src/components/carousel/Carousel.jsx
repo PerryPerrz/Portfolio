@@ -14,7 +14,6 @@ import Javascript from '../../assets/logo/js.svg'
 import LibGDX from '../../assets/logo/libgdx.svg'
 import MySQL from '../../assets/logo/mysql.svg'
 import NodeJS from '../../assets/logo/nodejs.svg'
-import Numpy from '../../assets/logo/numpy.svg'
 import PHP from '../../assets/logo/php.svg'
 import Python from '../../assets/logo/python.svg'
 import ReactJS from '../../assets/logo/react.svg'
@@ -56,7 +55,7 @@ const Carousel = () => {
 
                 <div className="item">
                     <img src={HTMLCSS} alt="" />
-                    <h4>HTML/CSS</h4>
+                    <h4>HTML5/CSS3</h4>
                 </div>
 
                 <div className="item">
@@ -87,11 +86,6 @@ const Carousel = () => {
                 <div className="item">
                     <img src={NodeJS} alt="" />
                     <h4>NodeJS</h4>
-                </div>
-
-                <div className="item">
-                    <img src={Numpy} alt="" />
-                    <h4>Numpy</h4>
                 </div>
 
                 <div className="item">

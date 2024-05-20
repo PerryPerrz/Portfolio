@@ -32,7 +32,7 @@ function Home() {
     <section className="home container" id="home">
       <div className="intro">
         <img src={Me} alt="" className="home-img" />
-        <h1 className="home-name">Hugo ^ <span className="important">Perry</span></h1>
+        <h1 className="home-name">Hugo <span className="important">Iopeti</span></h1>
 
         <span className="home-education">{t('home.title')}<span className="important">{text}</span></span>
         <Cursor />

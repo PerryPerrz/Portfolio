@@ -2,9 +2,9 @@
     "home": {
         "title": "Je suis un ",
         "words": [
-            "Ingénieur logiciel !",
-            "Développeur web !",
-            "Concepteur UI/UX !"
+            "Ingénieur logiciel.",
+            "Développeur web.",
+            "Concepteur UI/UX."
         ],
         "button": "Contactez Moi"
     },
